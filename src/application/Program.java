@@ -46,7 +46,7 @@ public class Program {
 		System.out.println();
 		System.out.println("PRICE TAGS:");
 		for(Product pro: list) {
-			System.out.println(pro);
+			System.out.println(pro); //System.out.println(pro.priceTag()); e remover o toString de Product
 		}
 		
 		sc.close();
